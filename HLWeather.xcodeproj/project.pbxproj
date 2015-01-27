@@ -27,6 +27,7 @@
 		A556D1B21A76EB1E00E38E9F /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A556D1B11A76EB1E00E38E9F /* libicucore.dylib */; };
 		A556D1B41A76EB2800E38E9F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A556D1B31A76EB2800E38E9F /* libxml2.dylib */; };
 		A556D1B61A76EB3D00E38E9F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A556D1B51A76EB3D00E38E9F /* Security.framework */; };
+		A556D1B91A76ED5E00E38E9F /* ApiClientYQL.m in Sources */ = {isa = PBXBuildFile; fileRef = A556D1B81A76ED5E00E38E9F /* ApiClientYQL.m */; };
 		A5955EB21A76E7FB001E4CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5955EB11A76E7FB001E4CDE /* main.m */; };
 		A5955EB51A76E7FB001E4CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5955EB41A76E7FB001E4CDE /* AppDelegate.m */; };
 		A5955EB81A76E7FB001E4CDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5955EB71A76E7FB001E4CDE /* ViewController.m */; };
@@ -92,6 +93,8 @@
 		A556D1B11A76EB1E00E38E9F /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		A556D1B31A76EB2800E38E9F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		A556D1B51A76EB3D00E38E9F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A556D1B71A76ED5E00E38E9F /* ApiClientYQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiClientYQL.h; sourceTree = "<group>"; };
+		A556D1B81A76ED5E00E38E9F /* ApiClientYQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiClientYQL.m; sourceTree = "<group>"; };
 		A5955EAC1A76E7FB001E4CDE /* HLWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5955EB01A76E7FB001E4CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5955EB11A76E7FB001E4CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -230,6 +233,8 @@
 				A5955EBC1A76E7FB001E4CDE /* Images.xcassets */,
 				A5955EBE1A76E7FB001E4CDE /* LaunchScreen.xib */,
 				A5955EAF1A76E7FB001E4CDE /* Supporting Files */,
+				A556D1B71A76ED5E00E38E9F /* ApiClientYQL.h */,
+				A556D1B81A76ED5E00E38E9F /* ApiClientYQL.m */,
 			);
 			path = HLWeather;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A556D1B91A76ED5E00E38E9F /* ApiClientYQL.m in Sources */,
 				A556D1A01A76EAB000E38E9F /* AFHTTPRequestOperation.m in Sources */,
 				A556D1AD1A76EAB000E38E9F /* UIImageView+AFNetworking.m in Sources */,
 				A5955EB81A76E7FB001E4CDE /* ViewController.m in Sources */,
